@@ -1,0 +1,29 @@
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1vw;
+}
+
+.level_1 tr{ 
+    background-color: orange;
+    height: 10vh;
+}
+
+.level_2 tr{ 
+    background-color: yellow;
+    height: 30vh;
+}
+
+.level_3 tr{ 
+    background-color: blue;
+    height: 20vh;
+}
+
+.level_4 tr{ 
+    background-color: grey;
+    height: 15vh;
+}
+
+
+

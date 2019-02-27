@@ -1,0 +1,48 @@
+header, footer{
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+}
+
+header{
+    background-color: gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+sidebar{
+    width: 10%;
+    height: 600px;
+    position: fixed;
+    margin: 1% 5% 1% 5%;
+    background-color: rgba(126, 119, 119, 0.811); 
+}
+
+sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px; 
+    display: block;
+}
+
+article{
+    width: 77%;
+    height: 600px;
+    margin: 1% 5% 1% 17%; 
+    background-color: burlywood;
+    word-wrap: break-word;
+    position: fixed;
+}
+
+
+footer{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: gray;
+    word-wrap: break-word;
+    text-align: center;
+    position: fixed;
+    bottom: 1%;
+}
+

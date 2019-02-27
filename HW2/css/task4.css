@@ -1,0 +1,46 @@
+header, footer{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.2);
+    text-align: center;
+}
+
+header{
+    height: 10vh;
+    margin-right: 10%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+}
+
+header:hover, footer:hover{
+    background-color: rgba(128, 128, 128, 1);
+}
+
+img{
+    height: 80%;
+    margin: 0.8vh;
+}
+
+img:first-child{
+    float: left;
+    top: 5%;
+}
+
+img:last-child{
+    float: right;
+}
+
+article{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 4px double rgb(79, 185, 227);
+    margin: 15%;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 5.5%;
+    bottom: 0;
+    height: 15vh;
+}

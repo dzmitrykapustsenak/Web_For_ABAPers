@@ -1,0 +1,116 @@
+div{
+    width: 100%;
+    height: 100%; 
+}
+
+.wrapper{
+    display: flex; 
+    flex-flow: row wrap;
+} 
+
+.level_11, .level_12  {
+    height: 15vh;
+    margin: 1%;
+}
+
+.level_11 {
+    background-color: red;
+    width: 31%;
+    order: 1;
+}
+
+.level_12 {
+    background-color: orange;
+    width: 64%;
+    order: 2;
+}
+
+.level_21 {
+    background-color: green;
+    height: 40vh;
+    width: 97%;
+    margin: 1%;
+    order: 3;
+}
+
+.level_31, .level_32, .level_33{
+    width:31%;
+    height:30vh;
+    margin:1%;
+}
+
+.level_31{
+    background-color: brown;
+    order: 4;
+}
+
+.level_32{
+    background-color: blue;
+    order: 5;
+}
+
+.level_33{
+    background-color: purple;
+    order: 6;
+}
+
+@media (max-width : 1024px){
+
+    .level_11{
+        height: 45vh;
+        width: 97%;
+        order: 3;
+    }
+
+    .level_12{
+        height: 15vh;
+        width: 31%;
+        order: 1;
+    }
+
+    .level_21{
+        height: 30vh;
+        width: 47.5%;
+        order: 4;
+    }
+    
+    .level_31{
+        display: none;
+    }
+
+    .level_32{
+        height: 30vh;
+        width: 47.5%;
+        order: 5;
+    }
+
+    .level_33{
+        height: 15vh;
+        width: 64%;
+        order: 2;
+    }
+}
+
+@media (max-width: 650px){ /*change to max-device-width*/
+    .level_31, .level_32, .level_12 {
+        display: none;
+    }
+    
+    .level_21, .level_33, .level_11{
+        width: 100%;
+    }
+
+    .level_21{
+        order: 1;
+        height: 15vh;
+    }
+    .level_33 {
+        order: 2;
+        height: 15vh; 
+    }
+
+    .level_11{
+        order: 3;
+        height: 45vh;
+    }
+}

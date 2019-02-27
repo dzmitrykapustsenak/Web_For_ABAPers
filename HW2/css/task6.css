@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex; 
+    flex-flow: row wrap;
+} 
+img{
+    width:100%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .level_1{
+        width:25%;
+    }
+    .level_2{
+        width:50%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .level_1, .level_2{
+        width:20%;
+    }
+}
